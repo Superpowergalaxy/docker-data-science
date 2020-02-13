@@ -1,5 +1,6 @@
 setup:
 	python3 -m venv ~/.myvenv
+	source ~/.myvenv/bin/activate
 
 
 install:
@@ -15,7 +16,7 @@ lint:
 
 
 build:
-	docker build --tag=app . 
+	docker build --tag=docker_data_science . 
 
 
 upload:
