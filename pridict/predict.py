@@ -134,7 +134,7 @@ def create_midi(prediction_output):
 
     midi_stream = stream.Stream(output_notes)
 
-    midi_stream.write('midi', fp='../tmp/test_output.mid')
+    midi_stream.write('midi', fp='../tmp/created_music.mid')
 
 if __name__ == '__main__':
     generate()

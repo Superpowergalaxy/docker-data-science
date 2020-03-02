@@ -3,7 +3,7 @@
 #!/bin/bash
 # run this scrept after 'docker build --tag=app .''
 
-dockerpath="superpowergalaxy/data-science"
+dockerpath="superpowergalaxy/create_music"
 
 # Authenticate & Tag
 echo "Docker ID and Image: $dockerpath"

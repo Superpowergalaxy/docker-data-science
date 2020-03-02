@@ -16,7 +16,7 @@ lint:
 
 
 build:
-	docker build --tag=docker_data_science . 
+	docker build --tag=create_music . 
 
 
 upload:
