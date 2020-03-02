@@ -3,6 +3,10 @@ To compile th docker image your self:
 
     sudo make build
 
+To pull the image form docker hub:
+
+    docker pull superpowergalaxy/create_music
+
 
 To push to the docker hub:
 

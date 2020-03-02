@@ -8,7 +8,7 @@ dockerpath="superpowergalaxy/create_music"
 # Authenticate & Tag
 echo "Docker ID and Image: $dockerpath"
 docker login &&\
-    docker image tag app $dockerpath
+    docker image tag create_music $dockerpath
 
 # Push Image
 docker image push $dockerpath 
